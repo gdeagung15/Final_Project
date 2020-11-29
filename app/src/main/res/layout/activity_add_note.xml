@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_note_title"/>
+
+    <EditText
+        android:id="@+id/input_judul_catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholder_note_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_note_content"/>
+
+    <EditText
+        android:id="@+id/input_desc_catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textMultiLine"
+        android:gravity="start|top"
+        android:minLines="10"
+        android:hint="Sebuah proyek tidak akan berjalan dengan teratur tanpa penggunaan dari metodologi."/>
+
+    <Button
+        android:id="@+id/button_add_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_add_note_button"/>
+
+
+</LinearLayout>

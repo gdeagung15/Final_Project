@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyNote</string>
+    <string name="label_add_note">add note</string>
+    <string name="label_note_title">Judul Catatan</string>
+    <string name="placeholder_note_title">Contoh: Catatan Materi RPL, PBO, BD</string>
+    <string name="label_note_content">Isi Catatan</string>
+    <string name="label_add_note_button">Tambah</string>
+</resources>

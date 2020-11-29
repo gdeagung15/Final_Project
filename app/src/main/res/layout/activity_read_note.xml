@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadNoteActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="Edit Title"/>
+
+    <EditText
+        android:id="@+id/note_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Description"
+        android:gravity="start"
+        android:minLines="10"
+        android:inputType="text|textMultiLine"/>
+
+    <Button
+        android:id="@+id/button_edit_note"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="edit"/>
+
+    <Button
+        android:id="@+id/button_delete_note"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="delete"/>
+
+
+</LinearLayout>
